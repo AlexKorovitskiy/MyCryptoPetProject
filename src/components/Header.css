@@ -1,0 +1,61 @@
+.header {
+  background-color: #1a1a1a;
+  padding: 1rem 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.header-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.wallet-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+}
+
+.balance {
+  color: #3498db;
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+
+.connect-wallet-btn {
+  background: linear-gradient(90deg, #3498db, #2980b9);
+  color: white;
+  border: none;
+  padding: 0.75rem 1.5rem;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.connect-wallet-btn:hover {
+  background: linear-gradient(90deg, #2980b9, #3498db);
+  box-shadow: 0 0 15px rgba(52, 152, 219, 0.5);
+}
+
+.connect-wallet-btn:active {
+  opacity: 0.9;
+  box-shadow: 0 0 5px rgba(52, 152, 219, 0.5);
+} 
